@@ -1,0 +1,311 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "document_file_save_plus"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "document_file_save_plus"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DocumentFileSavePlusPlugin",
+        "printedName": "DocumentFileSavePlusPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@document_file_save_plus@objc(cs)DocumentFileSavePlusPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s23document_file_save_plus26DocumentFileSavePlusPluginC8register4withySo07FlutterI9Registrar_p_tFZ",
+            "moduleName": "document_file_save_plus",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@document_file_save_plus@objc(cs)DocumentFileSavePlusPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s23document_file_save_plus26DocumentFileSavePlusPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "document_file_save_plus",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentFileSavePlusPlugin",
+                "printedName": "document_file_save_plus.DocumentFileSavePlusPlugin",
+                "usr": "c:@M@document_file_save_plus@objc(cs)DocumentFileSavePlusPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@document_file_save_plus@objc(cs)DocumentFileSavePlusPlugin(im)init",
+            "mangledName": "$s23document_file_save_plus26DocumentFileSavePlusPluginCACycfc",
+            "moduleName": "document_file_save_plus",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@document_file_save_plus@objc(cs)DocumentFileSavePlusPlugin",
+        "mangledName": "$s23document_file_save_plus26DocumentFileSavePlusPluginC",
+        "moduleName": "document_file_save_plus",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 25,
+      "value": "\"document_file_save_plus\""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 20,
+      "value": "\"getPlatformVersion\""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 6,
+      "value": "\"iOS \""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 22,
+      "value": "\"getBatteryPercentage\""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
+      "length": 19,
+      "value": "\"saveMultipleFiles\""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 845,
+      "length": 10,
+      "value": "\"dataList\""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 921,
+      "length": 14,
+      "value": "\"fileNameList\""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 14,
+      "value": "\"mimeTypeList\""
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "Array",
+      "offset": 1384,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1944,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2447,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2530,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/document_file_save_plus-2.0.0\/ios\/Classes\/DocumentFileSavePlusPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2596,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
