@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
     @objc func launchChat() {
         // Call the method to initialize the chat socket
-        laraigoChatSocket.initChatSocket(integrationId: "63fe5143762b546856d9deb0", viewController: self)
+        laraigoChatSocket.initChatSocket(integrationId: "integrationId", viewController: self)
     }
 }
 
