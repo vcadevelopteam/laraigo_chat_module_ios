@@ -25,19 +25,6 @@ Drag and drop the frame for the same build as shown in the image below on Embed 
 If you do not have the location of Embed Frameworks, generate a new Build Phase with that name:
 Go to **Runner > Build Phases > + > New Copy Files Phase**
 
-## Usage
-
-<!-- If you want to use the laraigo chat you will need to add the activity to you **AndroidManifest.xml.**. -->
-
-```xml
-
-```
-
-and use this line of code to initialize the chat wherever and whenever you want.
-
-```swift
-
-```
 
 and
 
