@@ -6,13 +6,20 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "TypeDecl",
@@ -1221,12 +1228,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1254,12 +1261,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1291,12 +1298,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3306,8 +3313,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -3421,9 +3428,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -3533,8 +3540,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3642,8 +3649,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3824,9 +3831,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5599,9 +5606,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5708,8 +5715,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -5832,9 +5839,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5914,6 +5921,97 @@
                 "declKind": "Accessor",
                 "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC14collectionViewSo012UICollectionI0CSgvM",
                 "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC14collectionViewSo012UICollectionI0CSgvM",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "thumbnailSize",
+            "printedName": "thumbnailSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvp",
+            "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvp",
+            "moduleName": "DKImagePickerController",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvg",
+                "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvg",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvs",
+                "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvs",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvM",
+                "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvM",
                 "moduleName": "DKImagePickerController",
                 "implicit": true,
                 "isOpen": true,
@@ -6998,9 +7096,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -8188,13 +8286,20 @@
       },
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "Var",
@@ -8361,8 +8466,8 @@
               "HasInitialValue",
               "Final",
               "ObjC",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -8747,9 +8852,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 0,
@@ -8870,9 +8975,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 1,
@@ -8993,9 +9098,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 2,
@@ -9019,9 +9124,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -9207,9 +9312,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 4,
@@ -9512,8 +9617,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -9579,9 +9684,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -9678,9 +9783,9 @@
             "moduleName": "DKImagePickerController",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -9712,9 +9817,9 @@
             "moduleName": "DKImagePickerController",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -9766,9 +9871,9 @@
             "moduleName": "DKImagePickerController",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -9801,9 +9906,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 6,
@@ -9918,9 +10023,9 @@
             "moduleName": "DKImagePickerController",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -9943,9 +10048,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -10606,8 +10711,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
@@ -12885,13 +12990,20 @@
       },
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "Var",
@@ -15056,8 +15168,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
@@ -15727,13 +15839,20 @@
       },
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "TypeDecl",
@@ -18470,12 +18589,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -18490,12 +18609,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -18772,8 +18891,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -18937,8 +19056,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19036,8 +19155,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19135,8 +19254,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19233,9 +19352,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -19333,9 +19452,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -19442,8 +19561,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19541,8 +19660,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19640,8 +19759,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19739,8 +19858,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19838,8 +19957,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -19937,8 +20056,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20036,8 +20155,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20135,8 +20254,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20234,8 +20353,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20333,8 +20452,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20451,8 +20570,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20616,8 +20735,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20790,8 +20909,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -20927,8 +21046,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -21026,8 +21145,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -21133,8 +21252,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -21230,6 +21349,105 @@
           },
           {
             "kind": "Var",
+            "name": "thumbnailSize",
+            "printedName": "thumbnailSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DKImagePickerController@objc(cs)DKImagePickerController(py)thumbnailSize",
+            "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvp",
+            "moduleName": "DKImagePickerController",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DKImagePickerController@objc(cs)DKImagePickerController(im)thumbnailSize",
+                "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvg",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DKImagePickerController@objc(cs)DKImagePickerController(im)setThumbnailSize:",
+                "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvs",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvM",
+                "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvM",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "exportStatus",
             "printedName": "exportStatus",
             "children": [
@@ -21247,8 +21465,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "SetterAccess",
               "AccessControl",
               "ObjC",
@@ -21517,9 +21735,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "SetterAccess",
               "AccessControl"
             ],
@@ -21687,9 +21905,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -21839,7 +22057,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ProtocolComposition",
-                "printedName": "UIKit.UIViewController & DKImagePickerController.DKImagePickerControllerAware"
+                "printedName": "any UIKit.UIViewController & DKImagePickerController.DKImagePickerControllerAware"
               }
             ],
             "declKind": "Func",
@@ -23228,12 +23446,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -23248,12 +23466,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -24209,7 +24427,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "DKImagePickerController.DKAssetGroupCellType.Type",
+                "printedName": "any DKImagePickerController.DKAssetGroupCellType.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25252,7 +25470,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "DKImagePickerController.DKAssetGroupCellType.Type",
+                "printedName": "any DKImagePickerController.DKAssetGroupCellType.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -27000,8 +27218,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -27657,28 +27875,28 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
-      "offset": 528,
+      "offset": 541,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
-      "offset": 528,
+      "offset": 541,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
-      "offset": 1015,
+      "offset": 1028,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 673,
       "length": 7,
       "value": "\"DKImagePickerController.DKAsset\""
     },
@@ -27846,42 +28064,42 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11699,
+      "offset": 11698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11980,
+      "offset": 11979,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 12841,
+      "offset": 12840,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "FloatLiteral",
-      "offset": 12942,
+      "offset": 12941,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13194,
+      "offset": 13193,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13282,
+      "offset": 13281,
       "length": 1,
       "value": "1"
     },
@@ -28070,231 +28288,231 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "StringLiteral",
-      "offset": 205,
+      "offset": 218,
       "length": 28,
       "value": "\"DKImageGroupCellIdentifier\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 579,
+      "offset": 592,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1128,
+      "offset": 1141,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 1312,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1452,
+      "offset": 1465,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1949,
+      "offset": 1962,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2060,
+      "offset": 2073,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2497,
+      "offset": 2510,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2525,
+      "offset": 2538,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2562,
+      "offset": 2575,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5641,
+      "offset": 5654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5368,
       "length": 18,
       "value": "\"DKImagePickerController.DKAssetGroupListVC\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5368,
       "length": 18,
       "value": "\"DKImagePickerController.DKAssetGroupListVC\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1446,
+      "offset": 1441,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1446,
+      "offset": 1441,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1595,
+      "offset": 1590,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1595,
+      "offset": 1590,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1796,
+      "offset": 1791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 1839,
+      "offset": 1834,
       "length": 28,
       "value": "\"DKImageAssetExporterDomain\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 1960,
+      "offset": 1955,
       "length": 33,
       "value": "\"DKImageExportResultRequestIDKey\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 2081,
+      "offset": 2076,
       "length": 27,
       "value": "\"DKImageExportCancelledKey\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 3544,
+      "offset": 3539,
       "length": 22,
       "value": "\"DKImageAssetExporter\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "FloatLiteral",
-      "offset": 3619,
+      "offset": 3614,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 4719,
+      "offset": 4714,
       "length": 34,
       "value": "\"DKImageAssetExporter_ExportQueue\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4804,
+      "offset": 4799,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4899,
+      "offset": 4894,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11372,
+      "offset": 11367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 14926,
+      "offset": 14921,
       "length": 31,
       "value": "\"DKPhotoImagePreviewVC.ioQueue\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 4364,
+      "offset": 4359,
       "length": 20,
       "value": "\"DKImagePickerController.DKImageAssetExporter\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 270,
+      "offset": 283,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1248,
+      "offset": 1261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1472,
+      "offset": 1485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11991,
+      "offset": 12004,
       "length": 1,
       "value": "0"
     },
@@ -28364,14 +28582,14 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1687,
+      "offset": 1700,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2274,
+      "offset": 2287,
       "length": 23,
       "value": "\"DKImagePickerController.DKImageGroupDataManager\""
     },
@@ -28539,84 +28757,84 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7512,
+      "offset": 7616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7575,
+      "offset": 7679,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7936,
+      "offset": 8040,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8011,
+      "offset": 8115,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8242,
+      "offset": 8346,
       "length": 3,
       "value": "680"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8255,
+      "offset": 8359,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8333,
+      "offset": 8437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8417,
+      "offset": 8521,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9267,
+      "offset": 9449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25477,
+      "offset": 25659,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25724,
+      "offset": 25906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26525,
+      "offset": 26707,
       "length": 4,
       "value": "true"
     },

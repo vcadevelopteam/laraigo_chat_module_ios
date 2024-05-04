@@ -49,9 +49,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -169,8 +169,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -278,10 +278,10 @@
             "mangledName": "$s14DKPhotoGallery9DKPDFViewC10openButtonSo8UIButtonCvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "isLet": true,
@@ -586,12 +586,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -777,12 +777,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -1387,7 +1387,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1397,7 +1397,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1415,12 +1415,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -1565,12 +1565,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -2543,12 +2543,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -2579,12 +2579,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[UIKit.UIPreviewActionItem]",
+                    "printedName": "[any UIKit.UIPreviewActionItem]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "UIPreviewActionItem",
-                        "printedName": "UIKit.UIPreviewActionItem",
+                        "printedName": "any UIKit.UIPreviewActionItem",
                         "usr": "c:objc(pl)UIPreviewActionItem"
                       }
                     ],
@@ -2998,7 +2998,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3008,7 +3008,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3026,12 +3026,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3182,12 +3182,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -3599,9 +3599,9 @@
             "mangledName": "$s14DKPhotoGallery0A20ContentAnimationViewC07contentE0So6UIViewCvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3647,9 +3647,9 @@
             "mangledName": "$s14DKPhotoGallery0A20ContentAnimationViewC11contentSizeSo6CGSizeVvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4269,7 +4269,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?) -> ()",
+                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4279,7 +4279,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?)",
+                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4306,12 +4306,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -4369,7 +4369,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?) -> ()",
+                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4379,7 +4379,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?)",
+                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4406,12 +4406,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -4695,8 +4695,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -4814,12 +4814,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource?",
+                "printedName": "(any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "DKPhotoGalleryIncrementalDataSource",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
+                    "printedName": "any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
                     "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryIncrementalDataSource"
                   }
                 ],
@@ -4833,8 +4833,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -4848,12 +4848,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryIncrementalDataSource",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryIncrementalDataSource"
                       }
                     ],
@@ -4884,12 +4884,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryIncrementalDataSource",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryIncrementalDataSource"
                       }
                     ],
@@ -4989,8 +4989,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5179,8 +5179,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5293,8 +5293,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5391,8 +5391,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5478,7 +5478,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate?"
+                "printedName": "(any DKPhotoGallery.DKPhotoGalleryDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -5488,8 +5488,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "ObjC"
@@ -5505,12 +5505,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryDelegate",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryDelegate",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryDelegate"
                       }
                     ],
@@ -5541,12 +5541,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryDelegate",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryDelegate",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryDelegate"
                       }
                     ],
@@ -5620,8 +5620,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5765,8 +5765,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5901,8 +5901,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -6023,9 +6023,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6138,9 +6138,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6679,12 +6679,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -6714,12 +6714,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[UIKit.UIPreviewActionItem]",
+                    "printedName": "[any UIKit.UIPreviewActionItem]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "UIPreviewActionItem",
-                        "printedName": "UIKit.UIPreviewActionItem",
+                        "printedName": "any UIKit.UIPreviewActionItem",
                         "usr": "c:objc(pl)UIPreviewActionItem"
                       }
                     ],
@@ -7227,12 +7227,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7247,12 +7247,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7766,7 +7766,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "DKPhotoGallery.DKPhotoGalleryContentDataSource?"
+                "printedName": "(any DKPhotoGallery.DKPhotoGalleryContentDataSource)?"
               }
             ],
             "declKind": "Var",
@@ -7775,9 +7775,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -7792,12 +7792,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryContentDataSource?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryContentDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryContentDataSource",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryContentDataSource",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryContentDataSource",
                         "usr": "s:14DKPhotoGallery0aB17ContentDataSourceP"
                       }
                     ],
@@ -7825,12 +7825,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryContentDataSource?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryContentDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryContentDataSource",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryContentDataSource",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryContentDataSource",
                         "usr": "s:14DKPhotoGallery0aB17ContentDataSourceP"
                       }
                     ],
@@ -7874,7 +7874,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "DKPhotoGallery.DKPhotoGalleryContentDelegate?"
+                "printedName": "(any DKPhotoGallery.DKPhotoGalleryContentDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -7883,9 +7883,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -7900,12 +7900,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryContentDelegate?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryContentDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryContentDelegate",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryContentDelegate",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryContentDelegate",
                         "usr": "s:14DKPhotoGallery0aB15ContentDelegateP"
                       }
                     ],
@@ -7933,12 +7933,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryContentDelegate?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryContentDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryContentDelegate",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryContentDelegate",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryContentDelegate",
                         "usr": "s:14DKPhotoGallery0aB15ContentDelegateP"
                       }
                     ],
@@ -8012,9 +8012,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -8163,9 +8163,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -8295,8 +8295,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -9152,9 +9152,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -9186,9 +9186,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -9220,9 +9220,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -9254,9 +9254,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -9288,9 +9288,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -9314,9 +9314,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -9406,9 +9406,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -9432,9 +9432,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -9458,9 +9458,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -11723,9 +11723,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -11763,9 +11763,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -12373,9 +12373,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -12488,9 +12488,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -12654,12 +12654,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerAnimatedTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerAnimatedTransitioning",
-                    "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                    "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                     "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
                   }
                 ],
@@ -12706,12 +12706,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerAnimatedTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerAnimatedTransitioning",
-                    "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                    "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                     "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
                   }
                 ],
@@ -12745,12 +12745,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerInteractiveTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerInteractiveTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerInteractiveTransitioning",
-                    "printedName": "UIKit.UIViewControllerInteractiveTransitioning",
+                    "printedName": "any UIKit.UIViewControllerInteractiveTransitioning",
                     "usr": "c:objc(pl)UIViewControllerInteractiveTransitioning"
                   }
                 ],
@@ -12759,7 +12759,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerAnimatedTransitioning",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                 "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
               }
             ],
@@ -12784,12 +12784,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerInteractiveTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerInteractiveTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerInteractiveTransitioning",
-                    "printedName": "UIKit.UIViewControllerInteractiveTransitioning",
+                    "printedName": "any UIKit.UIViewControllerInteractiveTransitioning",
                     "usr": "c:objc(pl)UIViewControllerInteractiveTransitioning"
                   }
                 ],
@@ -12798,7 +12798,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerAnimatedTransitioning",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                 "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
               }
             ],
@@ -12979,9 +12979,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -13081,12 +13081,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerContextTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerContextTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerContextTransitioning",
-                    "printedName": "UIKit.UIViewControllerContextTransitioning",
+                    "printedName": "any UIKit.UIViewControllerContextTransitioning",
                     "usr": "c:objc(pl)UIViewControllerContextTransitioning"
                   }
                 ],
@@ -13120,7 +13120,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerContextTransitioning",
-                "printedName": "UIKit.UIViewControllerContextTransitioning",
+                "printedName": "any UIKit.UIViewControllerContextTransitioning",
                 "usr": "c:objc(pl)UIViewControllerContextTransitioning"
               }
             ],
@@ -13280,9 +13280,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -13382,12 +13382,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerContextTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerContextTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerContextTransitioning",
-                    "printedName": "UIKit.UIViewControllerContextTransitioning",
+                    "printedName": "any UIKit.UIViewControllerContextTransitioning",
                     "usr": "c:objc(pl)UIViewControllerContextTransitioning"
                   }
                 ],
@@ -13421,7 +13421,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerContextTransitioning",
-                "printedName": "UIKit.UIViewControllerContextTransitioning",
+                "printedName": "any UIKit.UIViewControllerContextTransitioning",
                 "usr": "c:objc(pl)UIViewControllerContextTransitioning"
               }
             ],
@@ -13577,7 +13577,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DKPhotoImageDownloader",
-                "printedName": "DKPhotoGallery.DKPhotoImageDownloader",
+                "printedName": "any DKPhotoGallery.DKPhotoImageDownloader",
                 "usr": "s:14DKPhotoGallery0A15ImageDownloaderP"
               }
             ],
@@ -13636,7 +13636,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?) -> ()",
+                "printedName": "(UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13646,7 +13646,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?)",
+                    "printedName": "(UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13679,12 +13679,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -13724,7 +13724,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DKPhotoImageDownloader",
-                "printedName": "DKPhotoGallery.DKPhotoImageDownloader",
+                "printedName": "any DKPhotoGallery.DKPhotoImageDownloader",
                 "usr": "s:14DKPhotoGallery0A15ImageDownloaderP"
               }
             ],
@@ -13881,7 +13881,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?) -> ()",
+                "printedName": "(UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13891,7 +13891,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?)",
+                    "printedName": "(UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13924,12 +13924,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -13995,7 +13995,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DKPhotoImageDownloader",
-                "printedName": "DKPhotoGallery.DKPhotoImageDownloader",
+                "printedName": "any DKPhotoGallery.DKPhotoImageDownloader",
                 "usr": "s:14DKPhotoGallery0A15ImageDownloaderP"
               }
             ],
@@ -14053,7 +14053,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?) -> ()",
+                "printedName": "(UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14063,7 +14063,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?)",
+                    "printedName": "(UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14096,12 +14096,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -14209,9 +14209,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -14243,9 +14243,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -14277,9 +14277,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -14311,9 +14311,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -14337,10 +14337,10 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -14392,10 +14392,10 @@
             "moduleName": "DKPhotoGallery",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -14480,7 +14480,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14490,7 +14490,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14508,12 +14508,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -15287,7 +15287,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -15321,7 +15321,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15364,9 +15364,9 @@
             "mangledName": "$s14DKPhotoGallery0A20IncrementalIndicatorC9directionAA0acD9DirectionOvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -15425,9 +15425,9 @@
             "mangledName": "$s14DKPhotoGallery0A20IncrementalIndicatorC12refreshBlockyycvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -15488,8 +15488,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -15578,10 +15578,10 @@
             "mangledName": "$s14DKPhotoGallery0A20IncrementalIndicatorC12pullDistance12CoreGraphics7CGFloatVvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -15638,9 +15638,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -15672,9 +15672,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -15698,10 +15698,10 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -15725,9 +15725,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -15753,10 +15753,10 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -15782,8 +15782,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 9,
@@ -16258,9 +16258,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -16391,9 +16391,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -16486,9 +16486,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -16600,9 +16600,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -16821,7 +16821,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -16831,7 +16831,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -16849,12 +16849,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -17259,9 +17259,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -17388,9 +17388,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -17479,9 +17479,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -17589,9 +17589,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -17718,9 +17718,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -17945,7 +17945,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -17955,7 +17955,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -17973,12 +17973,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -18365,9 +18365,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -18834,9 +18834,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -18860,9 +18860,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -19214,9 +19214,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -19330,9 +19330,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 1,
@@ -19364,9 +19364,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -19398,9 +19398,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -19424,9 +19424,9 @@
             "moduleName": "DKPhotoGallery",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -19556,7 +19556,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -19881,9 +19881,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -19997,8 +19997,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -20237,9 +20237,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -20385,9 +20385,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -20643,9 +20643,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -20734,9 +20734,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -20825,9 +20825,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -20915,10 +20915,10 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC10playButtonSo8UIButtonCvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "isLet": true,
@@ -20956,7 +20956,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -20990,7 +20990,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",

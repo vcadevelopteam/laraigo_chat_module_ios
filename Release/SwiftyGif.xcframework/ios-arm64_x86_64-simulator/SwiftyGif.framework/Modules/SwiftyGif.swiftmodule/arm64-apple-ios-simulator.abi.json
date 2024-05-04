@@ -436,6 +436,96 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "mode",
+            "printedName": "mode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mode",
+                "printedName": "Foundation.RunLoop.Mode",
+                "usr": "c:@T@NSRunLoopMode"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavp",
+            "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavp",
+            "moduleName": "SwiftyGif",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "Foundation.RunLoop.Mode",
+                    "usr": "c:@T@NSRunLoopMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavg",
+                "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavg",
+                "moduleName": "SwiftyGif",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "Foundation.RunLoop.Mode",
+                    "usr": "c:@T@NSRunLoopMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavs",
+                "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavs",
+                "moduleName": "SwiftyGif",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavM",
+                "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavM",
+                "moduleName": "SwiftyGif",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(memoryLimit:)",
@@ -1285,12 +1375,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -4194,12 +4284,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SwiftyGif.SwiftyGifDelegate?",
+                "printedName": "(any SwiftyGif.SwiftyGifDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SwiftyGifDelegate",
-                    "printedName": "SwiftyGif.SwiftyGifDelegate",
+                    "printedName": "any SwiftyGif.SwiftyGifDelegate",
                     "usr": "c:@M@SwiftyGif@objc(pl)SwiftyGifDelegate"
                   }
                 ],
@@ -4224,12 +4314,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SwiftyGif.SwiftyGifDelegate?",
+                    "printedName": "(any SwiftyGif.SwiftyGifDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SwiftyGifDelegate",
-                        "printedName": "SwiftyGif.SwiftyGifDelegate",
+                        "printedName": "any SwiftyGif.SwiftyGifDelegate",
                         "usr": "c:@M@SwiftyGif@objc(pl)SwiftyGifDelegate"
                       }
                     ],
@@ -4257,12 +4347,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SwiftyGif.SwiftyGifDelegate?",
+                    "printedName": "(any SwiftyGif.SwiftyGifDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SwiftyGifDelegate",
-                        "printedName": "SwiftyGif.SwiftyGifDelegate",
+                        "printedName": "any SwiftyGif.SwiftyGifDelegate",
                         "usr": "c:@M@SwiftyGif@objc(pl)SwiftyGifDelegate"
                       }
                     ],
@@ -4547,42 +4637,42 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10322,
+      "offset": 10382,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10371,
+      "offset": 10431,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10409,
+      "offset": 10469,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10448,
+      "offset": 10508,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10489,
+      "offset": 10549,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10527,
+      "offset": 10587,
       "length": 1,
       "value": "4"
     },

@@ -56,7 +56,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -168,111 +168,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1153,
-      "length": 43,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.remove\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1377,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1582,
-      "length": 44,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.setBool\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1808,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1850,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 2074,
-      "length": 46,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.setDouble\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2304,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2346,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 2575,
-      "length": 45,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.setValue\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2803,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2845,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3060,
-      "length": 43,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.getAll\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3408,
-      "length": 42,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.clear\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/SharedPreferencesPlugin.swift",
-      "kind": "Dictionary",
-      "offset": 1448,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.1.5\/darwin\/Classes\/SharedPreferencesPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 1632,
-      "length": 10,
-      "value": "\"flutter.\""
-    }
-  ]
+  "ConstValues": []
 }

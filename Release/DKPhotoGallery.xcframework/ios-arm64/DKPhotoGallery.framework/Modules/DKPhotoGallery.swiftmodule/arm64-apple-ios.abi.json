@@ -48,9 +48,9 @@
             "mangledName": "$s14DKPhotoGallery9DKPDFViewC3url10Foundation3URLVSgvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -164,8 +164,8 @@
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -270,10 +270,10 @@
             "mangledName": "$s14DKPhotoGallery9DKPDFViewC10openButtonSo8UIButtonCvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "isLet": true,
@@ -680,12 +680,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -1288,7 +1288,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1298,7 +1298,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1316,12 +1316,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -1466,12 +1466,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -2389,12 +2389,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -2425,12 +2425,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[UIKit.UIPreviewActionItem]",
+                    "printedName": "[any UIKit.UIPreviewActionItem]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "UIPreviewActionItem",
-                        "printedName": "UIKit.UIPreviewActionItem",
+                        "printedName": "any UIKit.UIPreviewActionItem",
                         "usr": "c:objc(pl)UIPreviewActionItem"
                       }
                     ],
@@ -2839,7 +2839,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2849,7 +2849,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2867,12 +2867,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3017,12 +3017,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -3908,7 +3908,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?) -> ()",
+                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3918,7 +3918,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?)",
+                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3945,12 +3945,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -4008,7 +4008,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?) -> ()",
+                "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4018,7 +4018,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, Swift.Error?)",
+                    "printedName": "([DKPhotoGallery.DKPhotoGalleryItem]?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4045,12 +4045,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -4334,8 +4334,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -4453,12 +4453,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource?",
+                "printedName": "(any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "DKPhotoGalleryIncrementalDataSource",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
+                    "printedName": "any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
                     "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryIncrementalDataSource"
                   }
                 ],
@@ -4472,8 +4472,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -4487,12 +4487,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryIncrementalDataSource",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryIncrementalDataSource"
                       }
                     ],
@@ -4523,12 +4523,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryIncrementalDataSource",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryIncrementalDataSource",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryIncrementalDataSource"
                       }
                     ],
@@ -4628,8 +4628,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -4818,8 +4818,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -4932,8 +4932,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5030,8 +5030,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5117,7 +5117,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate?"
+                "printedName": "(any DKPhotoGallery.DKPhotoGalleryDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -5127,8 +5127,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ReferenceOwnership",
               "ObjC"
@@ -5144,12 +5144,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryDelegate",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryDelegate",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryDelegate"
                       }
                     ],
@@ -5180,12 +5180,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate?",
+                    "printedName": "(any DKPhotoGallery.DKPhotoGalleryDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DKPhotoGalleryDelegate",
-                        "printedName": "DKPhotoGallery.DKPhotoGalleryDelegate",
+                        "printedName": "any DKPhotoGallery.DKPhotoGalleryDelegate",
                         "usr": "c:@M@DKPhotoGallery@objc(pl)DKPhotoGalleryDelegate"
                       }
                     ],
@@ -5259,8 +5259,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5404,8 +5404,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -5540,8 +5540,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -5662,9 +5662,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6095,12 +6095,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[UIKit.UIPreviewActionItem]",
+                "printedName": "[any UIKit.UIPreviewActionItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPreviewActionItem",
-                    "printedName": "UIKit.UIPreviewActionItem",
+                    "printedName": "any UIKit.UIPreviewActionItem",
                     "usr": "c:objc(pl)UIPreviewActionItem"
                   }
                 ],
@@ -6130,12 +6130,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[UIKit.UIPreviewActionItem]",
+                    "printedName": "[any UIKit.UIPreviewActionItem]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "UIPreviewActionItem",
-                        "printedName": "UIKit.UIPreviewActionItem",
+                        "printedName": "any UIKit.UIPreviewActionItem",
                         "usr": "c:objc(pl)UIPreviewActionItem"
                       }
                     ],
@@ -6334,12 +6334,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6354,12 +6354,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -9711,9 +9711,9 @@
             "moduleName": "DKPhotoGallery",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -9808,12 +9808,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerAnimatedTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerAnimatedTransitioning",
-                    "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                    "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                     "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
                   }
                 ],
@@ -9859,12 +9859,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerAnimatedTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerAnimatedTransitioning",
-                    "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                    "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                     "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
                   }
                 ],
@@ -9897,12 +9897,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerInteractiveTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerInteractiveTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerInteractiveTransitioning",
-                    "printedName": "UIKit.UIViewControllerInteractiveTransitioning",
+                    "printedName": "any UIKit.UIViewControllerInteractiveTransitioning",
                     "usr": "c:objc(pl)UIViewControllerInteractiveTransitioning"
                   }
                 ],
@@ -9911,7 +9911,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerAnimatedTransitioning",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                 "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
               }
             ],
@@ -9935,12 +9935,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerInteractiveTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerInteractiveTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerInteractiveTransitioning",
-                    "printedName": "UIKit.UIViewControllerInteractiveTransitioning",
+                    "printedName": "any UIKit.UIViewControllerInteractiveTransitioning",
                     "usr": "c:objc(pl)UIViewControllerInteractiveTransitioning"
                   }
                 ],
@@ -9949,7 +9949,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerAnimatedTransitioning",
-                "printedName": "UIKit.UIViewControllerAnimatedTransitioning",
+                "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
                 "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
               }
             ],
@@ -10117,12 +10117,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerContextTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerContextTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerContextTransitioning",
-                    "printedName": "UIKit.UIViewControllerContextTransitioning",
+                    "printedName": "any UIKit.UIViewControllerContextTransitioning",
                     "usr": "c:objc(pl)UIViewControllerContextTransitioning"
                   }
                 ],
@@ -10156,7 +10156,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerContextTransitioning",
-                "printedName": "UIKit.UIViewControllerContextTransitioning",
+                "printedName": "any UIKit.UIViewControllerContextTransitioning",
                 "usr": "c:objc(pl)UIViewControllerContextTransitioning"
               }
             ],
@@ -10304,12 +10304,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewControllerContextTransitioning?",
+                "printedName": "(any UIKit.UIViewControllerContextTransitioning)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIViewControllerContextTransitioning",
-                    "printedName": "UIKit.UIViewControllerContextTransitioning",
+                    "printedName": "any UIKit.UIViewControllerContextTransitioning",
                     "usr": "c:objc(pl)UIViewControllerContextTransitioning"
                   }
                 ],
@@ -10343,7 +10343,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerContextTransitioning",
-                "printedName": "UIKit.UIViewControllerContextTransitioning",
+                "printedName": "any UIKit.UIViewControllerContextTransitioning",
                 "usr": "c:objc(pl)UIViewControllerContextTransitioning"
               }
             ],
@@ -11063,9 +11063,9 @@
             "mangledName": "$s14DKPhotoGallery0A12PDFPreviewVCC10closeBlockyycSgvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11192,9 +11192,9 @@
             "mangledName": "$s14DKPhotoGallery0A12PDFPreviewVCC20autoHidesControlViewSbvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11283,9 +11283,9 @@
             "mangledName": "$s14DKPhotoGallery0A12PDFPreviewVCC22tapToToggleControlViewSbvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11393,9 +11393,9 @@
             "mangledName": "$s14DKPhotoGallery0A12PDFPreviewVCC14beginPlayBlockyycSgvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11611,7 +11611,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11621,7 +11621,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11639,12 +11639,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -12714,7 +12714,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any?, Swift.Error?) -> ()",
+                "printedName": "(Any?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12724,7 +12724,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any?, Swift.Error?)",
+                    "printedName": "(Any?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12742,12 +12742,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -14223,9 +14223,9 @@
             "mangledName": "$s14DKPhotoGallery12DKPlayerViewC17isFinishedPlayingSbvp",
             "moduleName": "DKPhotoGallery",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -14351,7 +14351,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14385,7 +14385,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15001,703 +15001,10 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPDFView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1948,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPDFView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2314,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPDFView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2378,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPDFView.swift",
       "kind": "StringLiteral",
       "offset": 63,
       "length": 9,
       "value": "\"DKPhotoGallery.DKPDFView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoBaseImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1583,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoBaseImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1749,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoBaseImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3263,
-      "length": 42,
-      "value": "\"preview.image.saveImage.permission.error\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoBaseImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3809,
-      "length": 40,
-      "value": "\"preview.image.saveImage.result.success\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoBaseImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 6070,
-      "length": 33,
-      "value": "\"preview.3DTouch.saveImage.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoBaseImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 6625,
-      "length": 35,
-      "value": "\"preview.image.extractQRCode.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoBaseImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 7087,
-      "length": 41,
-      "value": "\"preview.image.longPress.saveImage.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1161,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1197,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1281,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1464,
-      "length": 18,
-      "value": "\"Montserrat-Light\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1490,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1568,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1602,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1693,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1707,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1718,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1795,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1872,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2049,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2055,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 2253,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 2265,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 2338,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "Array",
-      "offset": 3360,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3538,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3593,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3653,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3716,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3924,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3973,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4030,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4528,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 5589,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6018,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6310,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6580,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 6907,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7109,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7382,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7688,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8322,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8328,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8703,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8709,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8907,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8971,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9144,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9208,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9469,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10356,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10511,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10517,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10676,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10740,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10744,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10816,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10820,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11184,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11275,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11685,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11691,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 12326,
-      "length": 32,
-      "value": "\"preview.image.longPress.cancel\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12545,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13066,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13270,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 13785,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 13914,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 14030,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 14277,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14526,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14605,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "Array",
-      "offset": 14703,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "Array",
-      "offset": 14795,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoBasePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15054,
-      "length": 3,
-      "value": "812"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "StringLiteral",
-      "offset": 1165,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2492,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2498,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2667,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2694,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4065,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4097,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4264,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4317,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4487,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4514,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4705,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4732,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4905,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4937,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5131,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5163,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5339,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5392,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5589,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5642,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoContentAnimationView.swift",
@@ -15726,27 +15033,6 @@
       "offset": 1764,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2646,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4060,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "Array",
-      "offset": 4204,
-      "length": 54,
-      "value": "[0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x42, 0x61, 0x72]"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
@@ -15842,303 +15128,9 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 5639,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5884,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6092,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6175,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 6725,
-      "length": 61,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6759,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 6761,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 6785,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7293,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7331,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7377,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7394,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7576,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7684,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7721,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7767,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7783,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7965,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8382,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8398,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9066,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9125,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9186,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9342,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9404,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9741,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9751,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9760,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9860,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9870,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9879,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9981,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "FloatLiteral",
-      "offset": 10087,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10468,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 10543,
-      "length": 31,
-      "value": "\"Please add at least one item.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 10768,
-      "length": 31,
-      "value": "\"Please add at least one item.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
       "offset": 10855,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11039,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11489,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11565,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "Array",
-      "offset": 11637,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11714,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11784,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
@@ -16150,226 +15142,9 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 12042,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12491,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12567,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "Array",
-      "offset": 12631,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12717,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12787,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13158,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
       "offset": 13274,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13495,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13589,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13655,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13672,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "FloatLiteral",
-      "offset": 13740,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13803,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14050,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14145,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14212,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14228,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "FloatLiteral",
-      "offset": 14296,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14359,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14573,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14579,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14589,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14600,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14711,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14718,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15994,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "StringLiteral",
-      "offset": 685,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 864,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 870,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 969,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 975,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
@@ -16423,153 +15198,6 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3450,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3555,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3561,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4160,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4177,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4899,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5153,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5391,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 5490,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6814,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7121,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7301,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 7462,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8722,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8726,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 8961,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9556,
-      "length": 2,
-      "value": "34"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9561,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9620,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9948,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9964,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
       "offset": 10199,
       "length": 5,
       "value": "false"
@@ -16583,274 +15211,8 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10520,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10523,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10542,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10579,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "Array",
-      "offset": 13307,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
       "kind": "BooleanLiteral",
       "offset": 13426,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13552,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13897,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14103,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14266,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14438,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14479,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14582,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14660,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14750,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14828,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14939,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15017,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15035,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15154,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15240,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15258,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15351,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15411,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15503,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15624,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 16069,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16342,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16443,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 16496,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16540,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16565,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16589,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16624,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16665,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16799,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17210,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 17223,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryContentVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17390,
       "length": 5,
       "value": "false"
     },
@@ -16869,174 +15231,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1330,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2178,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2315,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2392,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2628,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "FloatLiteral",
-      "offset": 2688,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "FloatLiteral",
-      "offset": 2984,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3031,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3035,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "FloatLiteral",
-      "offset": 3065,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "FloatLiteral",
-      "offset": 3070,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3748,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "FloatLiteral",
-      "offset": 3938,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3982,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4081,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4181,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "FloatLiteral",
-      "offset": 4419,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4568,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4581,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4735,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4995,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5295,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5523,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryInteractiveTransition.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5565,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryItem.swift",
       "kind": "StringLiteral",
       "offset": 250,
@@ -17051,284 +15245,11 @@
       "value": "\"DKPhotoGalleryItemExtraInfoKeyRemoteImageOriginalSize\""
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryItem.swift",
-      "kind": "Array",
-      "offset": 2593,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryItem.swift",
-      "kind": "Array",
-      "offset": 2937,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 538,
-      "length": 16,
-      "value": "\"DKPhotoGallery\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 758,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 975,
-      "length": 13,
-      "value": "\"ImageFailed\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1086,
-      "length": 12,
-      "value": "\"VideoClose\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1195,
-      "length": 11,
-      "value": "\"VideoPlay\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1310,
-      "length": 13,
-      "value": "\"ToolbarPlay\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1428,
-      "length": 14,
-      "value": "\"ToolbarPause\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1577,
-      "length": 28,
-      "value": "\"VideoPlayControlBackground\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1709,
-      "length": 17,
-      "value": "\"VideoTimeSlider\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2129,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2173,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Resource\/DKPhotoGalleryResource.swift",
-      "kind": "StringLiteral",
-      "offset": 2558,
-      "length": 23,
-      "value": "\"DKPhotoGallery.bundle\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 488,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 540,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 584,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 625,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 667,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "StringLiteral",
-      "offset": 749,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 917,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 963,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1287,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1315,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1345,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1373,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1655,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1963,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2234,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2271,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2306,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2581,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2615,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2652,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
       "kind": "BooleanLiteral",
       "offset": 2734,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3149,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3351,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3795,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGalleryScrollView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3861,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionController.swift",
@@ -17338,564 +15259,11 @@
       "value": "\"DKPhotoGallery.DKPhotoGalleryTransitionController\""
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "FloatLiteral",
-      "offset": 498,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1481,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "Array",
-      "offset": 1684,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "Array",
-      "offset": 2345,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2903,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2919,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2966,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2982,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3351,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3968,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3981,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4058,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4253,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4266,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4520,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4562,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4624,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionDismiss.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4637,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionPresent.swift",
-      "kind": "FloatLiteral",
-      "offset": 526,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionPresent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2844,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Transition\/DKPhotoGalleryTransitionPresent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2952,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2004,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 2118,
-      "length": 27,
-      "value": "\"preview.image.fetch.error\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2956,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3123,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 3294,
-      "length": 23,
-      "value": "\"uniformTypeIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3996,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 4154,
-      "length": 27,
-      "value": "\"preview.image.fetch.error\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5303,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageDownloader.swift",
-      "kind": "StringLiteral",
-      "offset": 5457,
-      "length": 27,
-      "value": "\"preview.image.fetch.error\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 675,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 740,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 816,
-      "length": 4,
-      "value": "0.47"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 829,
-      "length": 4,
-      "value": "0.45"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 841,
-      "length": 4,
-      "value": "0.45"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 854,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 927,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1001,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1011,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1020,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1030,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1114,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1123,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1134,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1144,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1587,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2289,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2385,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2800,
-      "length": 39,
-      "value": "\"preview.image.download.original.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2843,
-      "length": 39,
-      "value": "\"(\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2880,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3015,
-      "length": 39,
-      "value": "\"preview.image.download.original.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3287,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3360,
-      "length": 8,
-      "value": "\"%.0f%%\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3381,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3622,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3709,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3822,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3925,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "Array",
-      "offset": 4180,
-      "length": 29,
-      "value": "[\"B\", \"KB\", \"MB\", \"GB\", \"TB\"]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4285,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4326,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4377,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4412,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4454,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 4492,
-      "length": 9,
-      "value": "\"%4.0f%@\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 4585,
-      "length": 9,
-      "value": "\"%4.2f%@\""
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
       "kind": "StringLiteral",
       "offset": 5287,
       "length": 31,
       "value": "\"DKPhotoImagePreviewVC.ioQueue\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5897,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6242,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6466,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 6584,
-      "length": 27,
-      "value": "\"preview.image.fetch.error\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 7114,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8323,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11877,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12314,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12484,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12558,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12691,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImagePreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12969,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
@@ -17938,146 +15306,6 @@
       "offset": 896,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1159,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1185,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1539,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1789,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1795,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1834,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1918,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1924,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4748,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5339,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5403,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5409,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7622,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7640,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7990,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8223,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8755,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8772,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
-      "kind": "FloatLiteral",
-      "offset": 9577,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageView.swift",
@@ -18151,244 +15379,6 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1998,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2060,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2208,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2335,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2340,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2345,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2502,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 2643,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2842,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2897,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2955,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 3000,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 3439,
-      "length": 51,
-      "value": "\"Superview must be a UIScrollView or its subclass!\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 3685,
-      "length": 20,
-      "value": "\"transform.rotation\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 3748,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 3804,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3848,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3893,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3948,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 4016,
-      "length": 22,
-      "value": "\"RotateAnimationShort\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 4109,
-      "length": 20,
-      "value": "\"transform.rotation\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 4184,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 4239,
-      "length": 3,
-      "value": "4.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4282,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 4511,
-      "length": 21,
-      "value": "\"RotateAnimationLong\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 4597,
-      "length": 9,
-      "value": "\"opacity\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 4642,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 4678,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4715,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 4838,
-      "length": 15,
-      "value": "\"FadeAnimation\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 4974,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 5276,
-      "length": 25,
-      "value": "\"Subclass must override!\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 5364,
-      "length": 25,
-      "value": "\"Subclass must override!\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 5447,
-      "length": 25,
-      "value": "\"Subclass must override!\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 27,
@@ -18416,97 +15406,6 @@
       "value": "\"contentSize\""
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7391,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7475,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7695,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7732,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7792,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7907,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8312,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8638,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8722,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9045,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9105,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9276,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoIncrementalIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9683,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPhotoPDFPreviewVC.swift",
       "kind": "BooleanLiteral",
       "offset": 192,
@@ -18519,20 +15418,6 @@
       "offset": 242,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPhotoPDFPreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1351,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PDFPreview\/DKPhotoPDFPreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1440,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
@@ -18556,172 +15441,11 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 902,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1102,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2006,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2114,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2945,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3103,
-      "length": 28,
-      "value": "\"preview.player.fetch.error\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4170,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPhotoPlayerPreviewVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4259,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 282,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 439,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 565,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 773,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 815,
-      "length": 2,
-      "value": "37"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 893,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 939,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1328,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1377,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1393,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 1443,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 1503,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1732,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1974,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2000,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2068,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/DKPhotoProgressIndicator.swift",
@@ -18736,34 +15460,6 @@
       "offset": 247,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoQRCodeResultVC.swift",
-      "kind": "StringLiteral",
-      "offset": 605,
-      "length": 47,
-      "value": "\"preview.image.extractQRCode.result.text.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoQRCodeResultVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 840,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoQRCodeResultVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 930,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoQRCodeResultVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 973,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
@@ -18785,83 +15481,6 @@
       "offset": 1105,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1698,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1769,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1801,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2157,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2202,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2429,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2534,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2652,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2878,
-      "length": 16,
-      "value": "\"document.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3373,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/QRCode\/DKPhotoWebVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3730,
-      "length": 12,
-      "value": "\"itms-appss\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
@@ -18886,13 +15505,6 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3936,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 3991,
       "length": 4,
@@ -18914,638 +15526,8 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5272,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 5710,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7632,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7917,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8568,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 8613,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9509,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9548,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9646,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9702,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9744,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9782,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9833,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 9874,
-      "length": 6,
-      "value": "\"0:00\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9929,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 9969,
-      "length": 6,
-      "value": "\"0:00\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10604,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10668,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11224,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11693,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11764,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12233,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12304,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12772,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12843,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13313,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13384,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13495,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13998,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14495,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14570,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15067,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15142,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15574,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15639,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16069,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16134,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16569,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16634,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 16851,
-      "length": 16,
-      "value": "\"Helvetica Neue\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16875,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16951,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17394,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17459,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17905,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17970,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18312,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18775,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18845,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19282,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19347,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19790,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19855,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20101,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20584,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20657,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21098,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21163,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21598,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21663,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22095,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22160,
-      "length": 3,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22606,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22671,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23113,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23178,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23643,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23714,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24181,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24287,
-      "length": 3,
-      "value": "-34"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24293,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24978,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26680,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 27281,
-      "length": 3,
-      "value": "3.5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27619,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27971,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 28261,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30287,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30301,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 30828,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31989,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32033,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 33262,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 33352,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 33453,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 35202,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 35481,
-      "length": 30,
-      "value": "\"preview.player.error.unknown\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 35596,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "FloatLiteral",
-      "offset": 35832,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 35942,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/PlayerPreview\/DKPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 36063,
       "length": 5,
       "value": "false"
     },

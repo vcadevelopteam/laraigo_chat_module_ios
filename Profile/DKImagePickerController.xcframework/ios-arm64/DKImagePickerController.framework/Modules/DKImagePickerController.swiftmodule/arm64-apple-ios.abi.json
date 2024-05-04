@@ -6,13 +6,20 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "TypeDecl",
@@ -1191,12 +1198,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1223,12 +1230,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1259,12 +1266,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3009,8 +3016,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -3124,9 +3131,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -3236,8 +3243,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3345,8 +3352,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4656,9 +4663,9 @@
             "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC08selectedE2IdSSSgvp",
             "moduleName": "DKImagePickerController",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4761,8 +4768,8 @@
             "declAttributes": [
               "HasInitialValue",
               "ObjC",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -4850,6 +4857,93 @@
                 "declKind": "Accessor",
                 "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC05imagebC0A2ACSgvM",
                 "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC05imagebC0A2ACSgvM",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "thumbnailSize",
+            "printedName": "thumbnailSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvp",
+            "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvp",
+            "moduleName": "DKImagePickerController",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvg",
+                "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvg",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvs",
+                "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvs",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvM",
+                "mangledName": "$s23DKImagePickerController20DKAssetGroupDetailVCC13thumbnailSizeSo6CGSizeVvM",
                 "moduleName": "DKImagePickerController",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6318,13 +6412,20 @@
       },
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "TypeDecl",
@@ -6443,8 +6544,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
@@ -8423,13 +8524,20 @@
       },
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "Var",
@@ -10264,8 +10372,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
@@ -10911,13 +11019,20 @@
       },
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKImagePickerController",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DKImagePickerController"
       },
       {
         "kind": "TypeDecl",
@@ -13283,12 +13398,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13303,12 +13418,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -13838,8 +13953,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -13933,8 +14048,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14028,9 +14143,9 @@
             "moduleName": "DKImagePickerController",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -14327,8 +14442,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14517,8 +14632,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14707,8 +14822,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14802,8 +14917,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -14992,8 +15107,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15087,8 +15202,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15201,8 +15316,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15362,8 +15477,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15532,8 +15647,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15760,8 +15875,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC",
               "RawDocComment"
@@ -15863,8 +15978,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -15957,6 +16072,101 @@
           },
           {
             "kind": "Var",
+            "name": "thumbnailSize",
+            "printedName": "thumbnailSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DKImagePickerController@objc(cs)DKImagePickerController(py)thumbnailSize",
+            "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvp",
+            "moduleName": "DKImagePickerController",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DKImagePickerController@objc(cs)DKImagePickerController(im)thumbnailSize",
+                "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvg",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DKImagePickerController@objc(cs)DKImagePickerController(im)setThumbnailSize:",
+                "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvs",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvM",
+                "mangledName": "$s23DKImagePickerControllerAAC13thumbnailSizeSo6CGSizeVvM",
+                "moduleName": "DKImagePickerController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "exportStatus",
             "printedName": "exportStatus",
             "children": [
@@ -15973,8 +16183,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "SetterAccess",
               "AccessControl",
               "ObjC",
@@ -16461,7 +16671,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ProtocolComposition",
-                "printedName": "UIKit.UIViewController & DKImagePickerController.DKImagePickerControllerAware"
+                "printedName": "any UIKit.UIViewController & DKImagePickerController.DKImagePickerControllerAware"
               }
             ],
             "declKind": "Func",
@@ -17640,12 +17850,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -17660,12 +17870,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -18614,7 +18824,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "DKImagePickerController.DKAssetGroupCellType.Type",
+                "printedName": "any DKImagePickerController.DKAssetGroupCellType.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -19657,7 +19867,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "DKImagePickerController.DKAssetGroupCellType.Type",
+                "printedName": "any DKImagePickerController.DKAssetGroupCellType.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -21203,8 +21413,8 @@
             "moduleName": "DKImagePickerController",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -21785,93 +21995,30 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
-      "offset": 528,
+      "offset": 541,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
-      "offset": 528,
+      "offset": 541,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "IntegerLiteral",
-      "offset": 1015,
+      "offset": 1028,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2530,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2584,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 673,
       "length": 7,
       "value": "\"DKImagePickerController.DKAsset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2984,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "FloatLiteral",
-      "offset": 3090,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "FloatLiteral",
-      "offset": 3128,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "FloatLiteral",
-      "offset": 3224,
-      "length": 3,
-      "value": "8.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3475,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1082,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
-      "kind": "FloatLiteral",
-      "offset": 1628,
-      "length": 3,
-      "value": "0.0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Export.swift",
@@ -21917,20 +22064,6 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4622,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5914,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAsset+Fetch.swift",
       "kind": "IntegerLiteral",
       "offset": 6420,
       "length": 1,
@@ -21945,20 +22078,6 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAssetGroup.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAssetGroup.swift",
-      "kind": "IntegerLiteral",
-      "offset": 659,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/Model\/DKAssetGroup.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 12,
@@ -21966,38 +22085,10 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
       "kind": "IntegerLiteral",
       "offset": 579,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
-      "kind": "StringLiteral",
-      "offset": 697,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 1041,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1176,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailBaseCell.swift",
@@ -22056,118 +22147,6 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailCameraCell.swift",
-      "kind": "StringLiteral",
-      "offset": 351,
-      "length": 25,
-      "value": "\"DKImageCameraIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailCameraCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 848,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailCameraCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 860,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailCameraCell.swift",
-      "kind": "StringLiteral",
-      "offset": 916,
-      "length": 38,
-      "value": "\"DKImageCameraAccessibilityIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailCameraCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1005,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailCameraCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1086,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "StringLiteral",
-      "offset": 349,
-      "length": 24,
-      "value": "\"DKImageAssetIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 913,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1080,
-      "length": 37,
-      "value": "\"DKImageAssetAccessibilityIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1168,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1249,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "StringLiteral",
-      "offset": 2021,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2273,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2279,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2309,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2320,
-      "length": 2,
-      "value": "20"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailImageCell.swift",
       "kind": "StringLiteral",
       "offset": 2633,
@@ -22197,34 +22176,6 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 467,
-      "length": 36,
-      "value": "\"Expect layoutAttributesForElements\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "Array",
-      "offset": 524,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 742,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 788,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1670,
       "length": 5,
@@ -22232,654 +22183,45 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2106,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2594,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 4441,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5377,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5800,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6089,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6136,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6487,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6885,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 7340,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7699,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 8296,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 8492,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 9077,
-      "length": 20,
-      "value": "\"Expect groupListVC\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 9228,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9741,
+      "offset": 11698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 9805,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10047,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10134,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10138,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 10279,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 10678,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11622,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11699,
+      "offset": 11979,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11980,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12657,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12841,
+      "offset": 12840,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "FloatLiteral",
-      "offset": 12942,
+      "offset": 12941,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13194,
+      "offset": 13193,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13282,
+      "offset": 13281,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14929,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15033,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15234,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15336,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 15609,
-      "length": 23,
-      "value": "\"Expect collectionView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16088,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16132,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 16345,
-      "length": 18,
-      "value": "\"Known direction.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16549,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16792,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16945,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 17099,
-      "length": 23,
-      "value": "\"Expect collectionView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17421,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17771,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18244,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18443,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18683,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19040,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19064,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19068,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 19939,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 20127,
-      "length": 14,
-      "value": "\"Expect asset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 20847,
-      "length": 35,
-      "value": "\"Expect DKAssetGroupDetailBaseCell\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 21234,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 21767,
-      "length": 35,
-      "value": "\"Expect DKAssetGroupDetailBaseCell\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22058,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23286,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23290,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 23436,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23471,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23537,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23541,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24451,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24577,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "Array",
-      "offset": 24600,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24656,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24733,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 25266,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25317,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25541,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25789,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26380,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 26754,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 26906,
-      "length": 23,
-      "value": "\"Expect collectionView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27317,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 27324,
-      "length": 4,
-      "value": "-0.5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27569,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 27723,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 30350,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 30502,
-      "length": 23,
-      "value": "\"Expect collectionView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30583,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31024,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31221,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "Array",
-      "offset": 31243,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 31529,
-      "length": 23,
-      "value": "\"Expect collectionView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32100,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 32484,
-      "length": 30,
-      "value": "\"Expect imagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
-      "kind": "StringLiteral",
-      "offset": 350,
-      "length": 24,
-      "value": "\"DKVideoAssetIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
-      "kind": "StringLiteral",
-      "offset": 565,
-      "length": 37,
-      "value": "\"DKVideoAssetAccessibilityIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 653,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
-      "kind": "StringLiteral",
-      "offset": 734,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 900,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 948,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/Cell\/DKAssetGroupDetailVideoCell.swift",
@@ -23064,1026 +22406,235 @@
       "value": "7"
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupGridLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupGridLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 401,
-      "length": 3,
-      "value": "120"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupGridLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 438,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupGridLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 705,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupGridLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 825,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "StringLiteral",
-      "offset": 205,
+      "offset": 218,
       "length": 28,
       "value": "\"DKImageGroupCellIdentifier\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 579,
+      "offset": 592,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1128,
+      "offset": 1141,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 1312,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1452,
+      "offset": 1465,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1949,
+      "offset": 1962,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2060,
+      "offset": 2073,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2497,
+      "offset": 2510,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2525,
+      "offset": 2538,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "FloatLiteral",
-      "offset": 2562,
+      "offset": 2575,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3481,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3631,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3698,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4077,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4133,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4155,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4180,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4329,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4352,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4377,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4642,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5641,
+      "offset": 5654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "StringLiteral",
-      "offset": 7192,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7945,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 8043,
-      "length": 15,
-      "value": "\"picker.albums\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8989,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9003,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 10010,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10053,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10119,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "Array",
-      "offset": 10139,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10369,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 10714,
-      "length": 24,
-      "value": "\"Expect groups and cell\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 10921,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11055,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11361,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 11591,
-      "length": 45,
-      "value": "\"Expect groups with count > \""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 11635,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12129,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 12284,
-      "length": 22,
-      "value": "\"preferredContentSize\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12494,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 12561,
-      "length": 22,
-      "value": "\"preferredContentSize\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 12750,
-      "length": 22,
-      "value": "\"preferredContentSize\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13068,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13080,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13131,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 13245,
-      "length": 22,
-      "value": "\"preferredContentSize\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13346,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
-      "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5368,
       "length": 18,
       "value": "\"DKImagePickerController.DKAssetGroupListVC\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKAssetGroupListVC.swift",
       "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5368,
       "length": 18,
       "value": "\"DKImagePickerController.DKAssetGroupListVC\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1446,
+      "offset": 1441,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1446,
+      "offset": 1441,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1595,
+      "offset": 1590,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1595,
+      "offset": 1590,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1796,
+      "offset": 1791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 1839,
+      "offset": 1834,
       "length": 28,
       "value": "\"DKImageAssetExporterDomain\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 1960,
+      "offset": 1955,
       "length": 33,
       "value": "\"DKImageExportResultRequestIDKey\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 2081,
+      "offset": 2076,
       "length": 27,
       "value": "\"DKImageExportCancelledKey\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 3544,
+      "offset": 3539,
       "length": 22,
       "value": "\"DKImageAssetExporter\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "FloatLiteral",
-      "offset": 3619,
+      "offset": 3614,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 4719,
+      "offset": 4714,
       "length": 34,
       "value": "\"DKImageAssetExporter_ExportQueue\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4804,
+      "offset": 4799,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4899,
+      "offset": 4894,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5700,
+      "offset": 11367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5881,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6275,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6408,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7893,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "FloatLiteral",
-      "offset": 8000,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "Array",
-      "offset": 8771,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8921,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8981,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9030,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10380,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11372,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11549,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 11876,
-      "length": 30,
-      "value": "\"The operation was cancelled.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12006,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12056,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12108,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12112,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12204,
-      "length": 10,
-      "value": "\"ftypheic\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12225,
-      "length": 10,
-      "value": "\"ftypheix\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12246,
-      "length": 10,
-      "value": "\"ftyphevc\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12267,
-      "length": 10,
-      "value": "\"ftyphevx\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12314,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 13292,
-      "length": 6,
-      "value": "\".tmp\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 13630,
-      "length": 40,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 13669,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 13896,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 14071,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 14233,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14802,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 14926,
+      "offset": 14921,
       "length": 31,
       "value": "\"DKPhotoImagePreviewVC.ioQueue\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15927,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16548,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
       "kind": "StringLiteral",
-      "offset": 17946,
-      "length": 19,
-      "value": "\"PHImageFileURLKey\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 18061,
-      "length": 7,
-      "value": "\"Image\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 18163,
-      "length": 11,
-      "value": "\"Image.jpg\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 18721,
-      "length": 7,
-      "value": "\".HEIC\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18807,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 18812,
-      "length": 5,
-      "value": "\"jpg\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 20159,
-      "length": 29,
-      "value": "\"Failed to fetch image data.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21179,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21371,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "FloatLiteral",
-      "offset": 21401,
-      "length": 4,
-      "value": "0.85"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21475,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 22283,
-      "length": 11,
-      "value": "\"Video.mov\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23587,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23919,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24902,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "FloatLiteral",
-      "offset": 25242,
-      "length": 4,
-      "value": "0.85"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "FloatLiteral",
-      "offset": 25253,
-      "length": 4,
-      "value": "0.15"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "FloatLiteral",
-      "offset": 25259,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 25820,
-      "length": 35,
-      "value": "\"Can't setup AVAssetExportSession.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 26181,
-      "length": 26,
-      "value": "\"Failed to fetch AVAsset.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 26617,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageAssetExporter.swift",
-      "kind": "StringLiteral",
-      "offset": 4364,
+      "offset": 4359,
       "length": 20,
       "value": "\"DKImagePickerController.DKImageAssetExporter\""
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageBaseManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1167,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 270,
+      "offset": 283,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 763,
+      "offset": 1261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 939,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 955,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 985,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1248,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1472,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2787,
-      "length": 22,
-      "value": "\"Expect originalAsset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3941,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4168,
-      "length": 30,
-      "value": "\"Expect PHImageRequestOptions\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4387,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5828,
-      "length": 22,
-      "value": "\"Expect originalAsset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6888,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7095,
-      "length": 30,
-      "value": "\"Expect PHImageRequestOptions\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7294,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8496,
-      "length": 22,
-      "value": "\"Expect originalAsset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9554,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9761,
-      "length": 30,
-      "value": "\"Expect PHImageRequestOptions\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9960,
+      "offset": 1485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10607,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11991,
+      "offset": 12004,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12136,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
@@ -24126,27 +22677,6 @@
       "offset": 544,
       "length": 11,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "StringLiteral",
-      "offset": 1113,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "StringLiteral",
-      "offset": 1203,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "StringLiteral",
-      "offset": 1334,
-      "length": 33,
-      "value": "\"This method must be overridden.\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
@@ -24165,329 +22695,21 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
-      "length": 45,
-      "value": "\"No DKImageExtension found: \""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "StringLiteral",
-      "offset": 4013,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImageExtensionController.swift",
-      "kind": "StringLiteral",
       "offset": 1789,
       "length": 26,
       "value": "\"DKImagePickerController.DKImageExtensionController\""
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 646,
-      "length": 9,
-      "value": "\"groupId\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 828,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 1546,
-      "length": 19,
-      "value": "\"presentationIndex\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 1623,
-      "length": 25,
-      "value": "\"presentingFromImageView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1744,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 1916,
-      "length": 16,
-      "value": "\"Expect phAsset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2567,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2772,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 3637,
-      "length": 16,
-      "value": "\"Helvetica Neue\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3661,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 3833,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4163,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4169,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "FloatLiteral",
-      "offset": 6073,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 6202,
-      "length": 22,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6221,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "StringLiteral",
-      "offset": 6223,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6324,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6409,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6422,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6435,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6503,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6609,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/Extensions\/DKImageExtensionGallery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6615,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1687,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "Dictionary",
-      "offset": 3631,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "Array",
-      "offset": 3672,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5346,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5458,
+      "offset": 1700,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 5625,
-      "length": 20,
-      "value": "\"Expect latestAsset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6044,
-      "length": 16,
-      "value": "\"Expect phAsset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6483,
-      "length": 20,
-      "value": "\"Expect fetchResult\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6576,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6607,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6672,
-      "length": 64,
-      "value": "\"idx out of range:\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6696,
-      "length": 11,
-      "value": "\" fetchResult count:\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6735,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10231,
-      "length": 39,
-      "value": "\"Expect group with id:\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10269,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10754,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11267,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "Array",
-      "offset": 11878,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12496,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImageDataManager\/DKImageGroupDataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2274,
+      "offset": 2287,
       "length": 23,
       "value": "\"DKImagePickerController.DKImageGroupDataManager\""
     },
@@ -24560,13 +22782,6 @@
       "offset": 626,
       "length": 9,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1890,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
@@ -24662,387 +22877,86 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7512,
+      "offset": 7616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7575,
+      "offset": 7679,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7936,
+      "offset": 8040,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8011,
+      "offset": 8115,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8242,
+      "offset": 8346,
       "length": 3,
       "value": "680"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8255,
+      "offset": 8359,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8333,
+      "offset": 8437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8417,
+      "offset": 8521,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8861,
+      "offset": 9449,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25659,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9267,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10114,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10269,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10619,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10763,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11209,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12203,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 13299,
-      "length": 17,
-      "value": "\"mediaType == %d\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 13573,
-      "length": 17,
-      "value": "\"mediaType == %d\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 15098,
-      "length": 7,
-      "value": "\"image\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 15139,
-      "length": 18,
-      "value": "\"didFinishEditing\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 15307,
-      "length": 10,
-      "value": "\"metadata\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16387,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 16847,
-      "length": 25,
-      "value": "\"didFinishCapturingImage\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 16912,
-      "length": 25,
-      "value": "\"didFinishCapturingVideo\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 16977,
-      "length": 11,
-      "value": "\"didCancel\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 17014,
-      "length": 23,
-      "value": "\"containsGPSInMetadata\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17914,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 19303,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 19616,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20948,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21028,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21989,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 22842,
-      "length": 14,
-      "value": "\"Expect group\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "Array",
-      "offset": 22944,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22972,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 23129,
-      "length": 14,
-      "value": "\"Expect asset\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23286,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24311,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24905,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25477,
+      "offset": 25906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25724,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26525,
+      "offset": 26707,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26643,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 26840,
-      "length": 42,
-      "value": "\"picker.select.photosOrVideos.error.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 26995,
-      "length": 44,
-      "value": "\"picker.select.photosOrVideos.error.message\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 27237,
-      "length": 17,
-      "value": "\"picker.alert.ok\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27383,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27437,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27499,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27856,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28754,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28761,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 29805,
-      "length": 9,
-      "value": "\"groupId\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 29921,
-      "length": 19,
-      "value": "\"presentationIndex\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerController.swift",
-      "kind": "StringLiteral",
-      "offset": 30070,
-      "length": 25,
-      "value": "\"presentingFromImageView\""
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
@@ -25057,356 +22971,6 @@
       "offset": 280,
       "length": 9,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "FloatLiteral",
-      "offset": 5155,
-      "length": 4,
-      "value": "18.0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5515,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 5606,
-      "length": 25,
-      "value": "\"picker.select.all.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 5913,
-      "length": 26,
-      "value": "\"picker.select.done.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 5943,
-      "length": 6,
-      "value": "\"(%@)\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6454,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 6560,
-      "length": 21,
-      "value": "\"picker.select.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 6831,
-      "length": 26,
-      "value": "\"picker.select.done.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7147,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7246,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7348,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9820,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 10319,
-      "length": 43,
-      "value": "\"picker.select.maxLimitReached.error.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 10498,
-      "length": 45,
-      "value": "\"picker.select.maxLimitReached.error.message\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 10720,
-      "length": 17,
-      "value": "\"picker.alert.ok\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10822,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11863,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12170,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 12224,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12245,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 12249,
-      "length": 12,
-      "value": "\"  ▾\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 12264,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKImagePickerControllerBaseUIDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12352,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 25,
-      "value": "\"DKImagePickerController\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 949,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1028,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1237,
-      "length": 20,
-      "value": "\"checked_background\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1272,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1289,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1437,
-      "length": 11,
-      "value": "\"tick_blue\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1463,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1481,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1580,
-      "length": 8,
-      "value": "\"camera\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1603,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1621,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1724,
-      "length": 14,
-      "value": "\"video_camera\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1753,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1771,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 1866,
-      "length": 13,
-      "value": "\"empty_album\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1894,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1911,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 2020,
-      "length": 28,
-      "value": "\"photoGallery_checked_image\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2063,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2080,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 2193,
-      "length": 30,
-      "value": "\"photoGallery_unchecked_image\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2238,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2255,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 2368,
-      "length": 25,
-      "value": "\"photoGallery_back_arrow\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2408,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2426,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
@@ -25421,69 +22985,6 @@
       "offset": 2592,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3369,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3413,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/Resource\/DKImagePickerControllerResource.swift",
-      "kind": "StringLiteral",
-      "offset": 3808,
-      "length": 32,
-      "value": "\"DKImagePickerController.bundle\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
-      "kind": "StringLiteral",
-      "offset": 770,
-      "length": 24,
-      "value": "\"permission.photo.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
-      "kind": "StringLiteral",
-      "offset": 1027,
-      "length": 25,
-      "value": "\"permission.camera.title\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
-      "kind": "StringLiteral",
-      "offset": 1195,
-      "length": 18,
-      "value": "\"permission.allow\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1520,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1700,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
-      "kind": "Dictionary",
-      "offset": 2259,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/View\/DKPermissionView.swift",
@@ -25557,234 +23058,10 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2852,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3090,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3388,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3557,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3563,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3737,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3743,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3876,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
       "kind": "StringLiteral",
       "offset": 1565,
       "length": 13,
       "value": "\"DKImagePickerController.DKPopoverView\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5150,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 5160,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 5522,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6057,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6110,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6495,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6536,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6552,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6560,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6602,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6614,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6641,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6669,
-      "length": 3,
-      "value": "1.3"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6843,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6855,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7028,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7131,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7172,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7188,
-      "length": 4,
-      "value": "0.01"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7197,
-      "length": 4,
-      "value": "0.01"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7853,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8089,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8182,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKImagePickerController\/Sources\/DKImagePickerController\/DKPopoverViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 8416,
-      "length": 3,
-      "value": "0.2"
     }
   ]
 }

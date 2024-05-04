@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/SDDiskCache.h</key>
 		<data>
-		2IvuQFBIJHsEUVLlR+28rQQe2lw=
+		+Stln0lIE7wnn6SMSVFIVZXHJN0=
 		</data>
 		<key>Headers/SDGraphicsImageRenderer.h</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Headers/SDImageCache.h</key>
 		<data>
-		OgeD4IhJt0wcHrYHwl+rAOCZym0=
+		B5j7SZgEs+9aqolcz79aMmcsagU=
 		</data>
 		<key>Headers/SDImageCacheConfig.h</key>
 		<data>
-		qler2sPfnEvXHIWYWpjPmXxLS2k=
+		ZQKLlzdcML6fzbkiXxBpjynvlqw=
 		</data>
 		<key>Headers/SDImageCacheDefine.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/SDImageTransformer.h</key>
 		<data>
-		WEFYmMHe5rHmqvSrbJpFKdq7Q8U=
+		ub5rvDWk3oIaMpDleW6iTvP4b0E=
 		</data>
 		<key>Headers/SDMemoryCache.h</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>Headers/SDWebImageCacheKeyFilter.h</key>
 		<data>
-		kWzwU6PCfaxh05DYMAnPInOw85k=
+		aYH0yhjC5zF2QCLSj2O+NMz0WQg=
 		</data>
 		<key>Headers/SDWebImageCacheSerializer.h</key>
 		<data>
-		yhPsUa8Lclc6bveRUOpmwxmlp3s=
+		3Z+TBpDAz0HbWFqUjv/rMeJeB8Q=
 		</data>
 		<key>Headers/SDWebImageCompat.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/SDWebImageDefine.h</key>
 		<data>
-		bMl/fJM5uZkjw85XN62keykoTBE=
+		ELnHLxx0aQZMP3vAyymlq3XGahE=
 		</data>
 		<key>Headers/SDWebImageDownloader.h</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Headers/SDWebImageDownloaderDecryptor.h</key>
 		<data>
-		vJxQiCTEOVWrorz1WoCpGpqBLwk=
+		+wmSvaiWPMkVMzkNlMQDpWa6kUY=
 		</data>
 		<key>Headers/SDWebImageDownloaderOperation.h</key>
 		<data>
@@ -166,11 +166,11 @@
 		</data>
 		<key>Headers/SDWebImageDownloaderRequestModifier.h</key>
 		<data>
-		MCiKrkYEgxwj/hlgbOdQCH2Ikww=
+		Qy4yjYxFiQYtKZSnS84bT4Z7G1c=
 		</data>
 		<key>Headers/SDWebImageDownloaderResponseModifier.h</key>
 		<data>
-		iiMubEaBLOEX9mCqw3SSpu/3iE0=
+		c6I+X9Wwmw8vcx6ZHlDckWOzI+4=
 		</data>
 		<key>Headers/SDWebImageError.h</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Headers/SDWebImageOptionsProcessor.h</key>
 		<data>
-		xCRisreXa0h9iUhYT/5Qqqn0a4I=
+		+tN4ufzzcshfZfddoW2fki5pPcY=
 		</data>
 		<key>Headers/SDWebImagePrefetcher.h</key>
 		<data>
@@ -242,11 +242,11 @@
 		</data>
 		<key>Headers/UIView+WebCache.h</key>
 		<data>
-		/orPm16a/8AeZaHQzu6cgc9pivk=
+		6s86639L67mb1Y1aTunR3oS9C+U=
 		</data>
 		<key>Headers/UIView+WebCacheOperation.h</key>
 		<data>
-		z/SzMOPyGv5l3tpRQbSZ0TPgqgY=
+		gWoTb4BsM6UfrNyXSanUM+AQLbU=
 		</data>
 		<key>Headers/UIView+WebCacheState.h</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oFoK4GLKPuDHOq5RcQaz/r2f6xQ=
+		2RxWzzMZLTuygQDLKQntecTqi5I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>PrivateHeaders/SDInternalMacros.h</key>
 		<data>
-		kq5JJh47Ybyaaui758s55l7ryoc=
+		Lns/aWnsokOaPUSXXvUqGIetRr4=
 		</data>
 		<key>PrivateHeaders/SDWeakProxy.h</key>
 		<data>
@@ -319,6 +319,14 @@
 		<key>PrivateHeaders/UIColor+SDHexString.h</key>
 		<data>
 		bvb2vO3YtXbNaIvieoIZQFZg/Vs=
+		</data>
+		<key>SDWebImage.bundle/Info.plist</key>
+		<data>
+		aFD4IqHv8qIPVGRogr6ibCvOUvk=
+		</data>
+		<key>SDWebImage.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -426,11 +434,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2IvuQFBIJHsEUVLlR+28rQQe2lw=
+			+Stln0lIE7wnn6SMSVFIVZXHJN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RUUIZa3diSyWYlI8UQuorNdyBlV/X2zGtEsn7f5XtgU=
+			mVkH0pCyG12ArH9oUmS0+yx4+UTvHhHCEn3NRoNxs0w=
 			</data>
 		</dict>
 		<key>Headers/SDGraphicsImageRenderer.h</key>
@@ -470,22 +478,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OgeD4IhJt0wcHrYHwl+rAOCZym0=
+			B5j7SZgEs+9aqolcz79aMmcsagU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ghSYHkdEDIrMbDfW8WO2RkdUBFDyqPI7kiO1kLgn4kc=
+			+2pdUFHHLLNQ/3oY3rJeZ1xYz422AHCX1k75DjoGLFQ=
 			</data>
 		</dict>
 		<key>Headers/SDImageCacheConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qler2sPfnEvXHIWYWpjPmXxLS2k=
+			ZQKLlzdcML6fzbkiXxBpjynvlqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			wXPIr1j/V870zHCjQh2lM721qn7lE/CLrjg+zOg16/I=
+			KXcPQelBhicoOVr+07WLwTaO9S6uGj9MW5irIucJO6o=
 			</data>
 		</dict>
 		<key>Headers/SDImageCacheDefine.h</key>
@@ -635,11 +643,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WEFYmMHe5rHmqvSrbJpFKdq7Q8U=
+			ub5rvDWk3oIaMpDleW6iTvP4b0E=
 			</data>
 			<key>hash2</key>
 			<data>
-			ttHjLUbrUEX1WRsQoOFm5OFIwt8WLdtqxp+QmOHmaLo=
+			BzjfnFk3ByWFzI/t2yVsL4ff4p/twCRCAxnNkEr8v8M=
 			</data>
 		</dict>
 		<key>Headers/SDMemoryCache.h</key>
@@ -679,22 +687,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kWzwU6PCfaxh05DYMAnPInOw85k=
+			aYH0yhjC5zF2QCLSj2O+NMz0WQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			+ppIhc5eD3WENhB5jXlJNanhtzYuJUmMmdVd+JIKrCY=
+			XbPrloD/gfU7g5lRm91x2vMzVvpglaaL7a2WAnW+cNg=
 			</data>
 		</dict>
 		<key>Headers/SDWebImageCacheSerializer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yhPsUa8Lclc6bveRUOpmwxmlp3s=
+			3Z+TBpDAz0HbWFqUjv/rMeJeB8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			y6/+3/Rq+gAU5zc5SquwEaaNEfkmV3m3SOX2EtNjktk=
+			VMTn0QvKDVDRkKdFHwbcrjvicIwKj0MKorGrJcQlFaE=
 			</data>
 		</dict>
 		<key>Headers/SDWebImageCompat.h</key>
@@ -712,11 +720,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bMl/fJM5uZkjw85XN62keykoTBE=
+			ELnHLxx0aQZMP3vAyymlq3XGahE=
 			</data>
 			<key>hash2</key>
 			<data>
-			H8fiqK/C8BHHm9U8bu2YGp+wyQqpOEorb5+RnHgbAdE=
+			Cody1/Chhy7dIhieyLJbTxcm7tT5i8HzuSe+L6P3PDQ=
 			</data>
 		</dict>
 		<key>Headers/SDWebImageDownloader.h</key>
@@ -745,11 +753,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vJxQiCTEOVWrorz1WoCpGpqBLwk=
+			+wmSvaiWPMkVMzkNlMQDpWa6kUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			B0vaRMDdlHTt+BgCHON74KyEhF3Is9NJzeTujVfiV24=
+			FKBGaywdBkdBkbqEAH8tEty7WspySouebsR8EWFh1tw=
 			</data>
 		</dict>
 		<key>Headers/SDWebImageDownloaderOperation.h</key>
@@ -767,22 +775,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MCiKrkYEgxwj/hlgbOdQCH2Ikww=
+			Qy4yjYxFiQYtKZSnS84bT4Z7G1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			a/14ZYiDuoCuVZGBEbmxuGN535xYWBc7kDY1abZ9nJo=
+			ely2wwcrB0UgYuT8cK7UkrjFFeB6qEKdg7Mcas1xvkg=
 			</data>
 		</dict>
 		<key>Headers/SDWebImageDownloaderResponseModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iiMubEaBLOEX9mCqw3SSpu/3iE0=
+			c6I+X9Wwmw8vcx6ZHlDckWOzI+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZkgMRUF2r/510velYYT5usmjo/jMs9RSSD+vBdfqehk=
+			DmKV+NTcDNFkjZOGQ5h44vwDWCRZeul2vzc+SHcQUQs=
 			</data>
 		</dict>
 		<key>Headers/SDWebImageError.h</key>
@@ -833,11 +841,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xCRisreXa0h9iUhYT/5Qqqn0a4I=
+			+tN4ufzzcshfZfddoW2fki5pPcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			rylYv0gMIFW8EylPz8SZ9LxGfHpfa4yRRjGZOUdjA4w=
+			MLr4/XYAKsIVDSMb+mfG7w3K+liH8qTe4lBcHnSHU4U=
 			</data>
 		</dict>
 		<key>Headers/SDWebImagePrefetcher.h</key>
@@ -976,22 +984,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/orPm16a/8AeZaHQzu6cgc9pivk=
+			6s86639L67mb1Y1aTunR3oS9C+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			xRg+T5NcbiX9ME77ty9lhnZNDVN3wycynD6HB/ROKTg=
+			yXMbWvtPWEfJjMeh+3ChnyVhz1HrUNZLwGolR15Dbws=
 			</data>
 		</dict>
 		<key>Headers/UIView+WebCacheOperation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z/SzMOPyGv5l3tpRQbSZ0TPgqgY=
+			gWoTb4BsM6UfrNyXSanUM+AQLbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oZlA15jDJYyNdXlOhL8jp8z2EB/aAodQOFoegLTYOYc=
+			meaO3k2BE7QmtJ0v6cEEmGv76UODAt0bbR3Irp23TxI=
 			</data>
 		</dict>
 		<key>Headers/UIView+WebCacheState.h</key>
@@ -1130,11 +1138,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kq5JJh47Ybyaaui758s55l7ryoc=
+			Lns/aWnsokOaPUSXXvUqGIetRr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			UXoneUefWEfso5klg+8CZ8jKyJ6pUBnTzUNsyL+keF0=
+			CcLqNsDNmKb4N09owp1EFqkqzeMHeb8Q3v92YNX4hDA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SDWeakProxy.h</key>
@@ -1179,6 +1187,28 @@
 			<key>hash2</key>
 			<data>
 			+mdUXWt+Qmy2a2ZiqxrK4pGY+Abw0T8/u8uTluVAKpA=
+			</data>
+		</dict>
+		<key>SDWebImage.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aFD4IqHv8qIPVGRogr6ibCvOUvk=
+			</data>
+			<key>hash2</key>
+			<data>
+			cplZjabobZuZOY7pG/s85WG6BRKHdz/Y8BVRYQ1ccT0=
+			</data>
+		</dict>
+		<key>SDWebImage.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PFHYbs0V3eUFDWQyYQcwEetuqEk=
+			</data>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
 			</data>
 		</dict>
 	</dict>

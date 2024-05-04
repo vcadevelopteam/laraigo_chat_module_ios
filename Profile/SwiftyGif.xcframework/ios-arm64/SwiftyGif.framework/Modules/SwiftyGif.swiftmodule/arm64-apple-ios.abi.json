@@ -359,6 +359,92 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "mode",
+            "printedName": "mode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mode",
+                "printedName": "Foundation.RunLoop.Mode",
+                "usr": "c:@T@NSRunLoopMode"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavp",
+            "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavp",
+            "moduleName": "SwiftyGif",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "Foundation.RunLoop.Mode",
+                    "usr": "c:@T@NSRunLoopMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavg",
+                "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavg",
+                "moduleName": "SwiftyGif",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "Foundation.RunLoop.Mode",
+                    "usr": "c:@T@NSRunLoopMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavs",
+                "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavs",
+                "moduleName": "SwiftyGif",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavM",
+                "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavM",
+                "moduleName": "SwiftyGif",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(memoryLimit:)",
@@ -791,12 +877,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1092,6 +1178,83 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgPassedAsDouble",
+            "printedName": "_CVarArgPassedAsDouble",
+            "usr": "s:s22_CVarArgPassedAsDoubleP",
+            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "BinaryFloatingPoint",
             "printedName": "BinaryFloatingPoint",
             "children": [
@@ -1204,83 +1367,6 @@
             "printedName": "AdditiveArithmetic",
             "usr": "s:s18AdditiveArithmeticP",
             "mangledName": "$ss18AdditiveArithmeticP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgPassedAsDouble",
-            "printedName": "_CVarArgPassedAsDouble",
-            "usr": "s:s22_CVarArgPassedAsDoubleP",
-            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgAligned",
-            "printedName": "_CVarArgAligned",
-            "usr": "s:s15_CVarArgAlignedP",
-            "mangledName": "$ss15_CVarArgAlignedP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStreamable",
-            "printedName": "TextOutputStreamable",
-            "usr": "s:s20TextOutputStreamableP",
-            "mangledName": "$ss20TextOutputStreamableP"
           },
           {
             "kind": "Conformance",
@@ -3640,12 +3726,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SwiftyGif.SwiftyGifDelegate?",
+                "printedName": "(any SwiftyGif.SwiftyGifDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SwiftyGifDelegate",
-                    "printedName": "SwiftyGif.SwiftyGifDelegate",
+                    "printedName": "any SwiftyGif.SwiftyGifDelegate",
                     "usr": "c:@M@SwiftyGif@objc(pl)SwiftyGifDelegate"
                   }
                 ],
@@ -3669,12 +3755,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SwiftyGif.SwiftyGifDelegate?",
+                    "printedName": "(any SwiftyGif.SwiftyGifDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SwiftyGifDelegate",
-                        "printedName": "SwiftyGif.SwiftyGifDelegate",
+                        "printedName": "any SwiftyGif.SwiftyGifDelegate",
                         "usr": "c:@M@SwiftyGif@objc(pl)SwiftyGifDelegate"
                       }
                     ],
@@ -3701,12 +3787,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SwiftyGif.SwiftyGifDelegate?",
+                    "printedName": "(any SwiftyGif.SwiftyGifDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SwiftyGifDelegate",
-                        "printedName": "SwiftyGif.SwiftyGifDelegate",
+                        "printedName": "any SwiftyGif.SwiftyGifDelegate",
                         "usr": "c:@M@SwiftyGif@objc(pl)SwiftyGifDelegate"
                       }
                     ],
@@ -3948,97 +4034,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 997,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1019,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2882,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2952,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3050,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3447,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3573,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3577,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3617,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "Array",
-      "offset": 3922,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4610,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4639,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4656,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
@@ -4075,281 +4070,43 @@
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "StringLiteral",
-      "offset": 791,
-      "length": 19,
-      "value": "\"Invalid file name\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "StringLiteral",
-      "offset": 900,
-      "length": 19,
-      "value": "\"Invalid gif file \""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 3875,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "StringLiteral",
-      "offset": 3939,
-      "length": 19,
-      "value": "\"SwiftyGIF: \""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "StringLiteral",
-      "offset": 3957,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "StringLiteral",
-      "offset": 4397,
-      "length": 5,
-      "value": "\"gif\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "StringLiteral",
-      "offset": 4405,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "StringLiteral",
-      "offset": 4410,
-      "length": 5,
-      "value": "\"gif\""
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5410,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5552,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "FloatLiteral",
-      "offset": 6272,
-      "length": 4,
-      "value": "1e-6"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7432,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7439,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "Array",
-      "offset": 7531,
-      "length": 42,
-      "value": "[60, 30, 20, 15, 12, 10, 6, 5, 4, 3, 2, 1]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7954,
-      "length": 3,
-      "value": "120"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8033,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8123,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8447,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8709,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8829,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8868,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8937,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8975,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9069,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9131,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "Array",
-      "offset": 9280,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9314,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9347,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9401,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9657,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9724,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10059,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10225,
+      "offset": 10382,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10243,
-      "length": 9,
-      "value": "1000000"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10322,
+      "offset": 10431,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10371,
+      "offset": 10469,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10409,
+      "offset": 10508,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10448,
+      "offset": 10549,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10489,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10527,
+      "offset": 10587,
       "length": 1,
       "value": "4"
     },
@@ -4384,48 +4141,6 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 2721,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2726,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2937,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2967,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3015,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3130,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
       "offset": 4004,
       "length": 2,
       "value": "-1"
@@ -4436,181 +4151,6 @@
       "offset": 4187,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5565,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5795,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5820,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6048,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6073,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7324,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7470,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7615,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7735,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8389,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8970,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9103,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9357,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9524,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11141,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11905,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11991,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12051,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12100,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12155,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12220,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12256,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12355,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12448,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12564,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
@@ -4688,48 +4228,6 @@
       "offset": 13730,
       "length": 1,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14267,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14477,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14670,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15367,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15566,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15784,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
