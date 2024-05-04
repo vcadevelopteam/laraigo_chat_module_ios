@@ -36,7 +36,7 @@ Go to **Runner > Build Phases > + > New Copy Files Phase**
 and use this line of code to initialize the chat wherever and whenever you want.
 
 ```swift
-LaraigoChatSocket().initChatSocket(integrationId: "ID", viewController: self)
+
 ```
 
 and
