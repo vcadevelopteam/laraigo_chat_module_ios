@@ -4,7 +4,7 @@ import Flutter
 
 struct HomeView: View {
     @EnvironmentObject var flutterDependencies: FlutterDependencies
-    @State var flutterMethodChannel : FlutterMethodChannel?
+    @State var flutterBasicChannel : FlutterBasicMessageChannel?
     
     var body: some View {
         
@@ -27,9 +27,9 @@ struct HomeView: View {
             let rootViewController = window.rootViewController
         else { return }
         
-        flutterMethodChannel = FlutterMethodChannel(name: "laraigo_chat_communication_channel", binaryMessenger: flutterDependencies.flutterEngine.binaryMessenger)
-    
-        flutterMethodChannel?.invokeMethod("testingSendData", arguments: ["integrationId":"6567ade24933f425469910e1"])
+        flutterBasicChannel = FlutterBasicMessageChannel(name: "laraigo_chat_communication_channel", binaryMessenger: flutterDependencies.flutterEngine.binaryMessenger, codec: FlutterStandardMessageCodec.sharedInstance())
+        
+        flutterBasicChannel?.sendMessage(["integrationId": "6567ade24933f425469910e1", "customMessage":""])
              
         // Create a FlutterViewController from pre-warm FlutterEngine
         let flutterViewController = FlutterViewController(
@@ -41,7 +41,6 @@ struct HomeView: View {
         rootViewController.present(flutterViewController, animated: true)
     }
 }
-
 
 #Preview {
     HomeView()
