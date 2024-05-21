@@ -5013,6 +5013,104 @@
           },
           {
             "kind": "Var",
+            "name": "leftBarButtonItemColor",
+            "printedName": "leftBarButtonItemColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DKPhotoGallery@objc(cs)DKPhotoGallery(py)leftBarButtonItemColor",
+            "mangledName": "$s14DKPhotoGalleryAAC22leftBarButtonItemColorSo7UIColorCvp",
+            "moduleName": "DKPhotoGallery",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DKPhotoGallery@objc(cs)DKPhotoGallery(im)leftBarButtonItemColor",
+                "mangledName": "$s14DKPhotoGalleryAAC22leftBarButtonItemColorSo7UIColorCvg",
+                "moduleName": "DKPhotoGallery",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DKPhotoGallery@objc(cs)DKPhotoGallery(im)setLeftBarButtonItemColor:",
+                "mangledName": "$s14DKPhotoGalleryAAC22leftBarButtonItemColorSo7UIColorCvs",
+                "moduleName": "DKPhotoGallery",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKPhotoGalleryAAC22leftBarButtonItemColorSo7UIColorCvM",
+                "mangledName": "$s14DKPhotoGalleryAAC22leftBarButtonItemColorSo7UIColorCvM",
+                "moduleName": "DKPhotoGallery",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "singleTapMode",
             "printedName": "singleTapMode",
             "children": [
@@ -10512,8 +10610,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DKPhotoGallery",
         "declAttributes": [
@@ -15037,112 +15135,112 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 4598,
+      "offset": 4758,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 4636,
+      "offset": 4796,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 4652,
+      "offset": 4812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "FloatLiteral",
-      "offset": 4783,
+      "offset": 4943,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 4844,
+      "offset": 5004,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 4861,
+      "offset": 5021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 4908,
+      "offset": 5068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 4925,
+      "offset": 5085,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "IntegerLiteral",
-      "offset": 5022,
+      "offset": 5182,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "FloatLiteral",
-      "offset": 5102,
+      "offset": 5262,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 5160,
+      "offset": 5320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 5177,
+      "offset": 5337,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "IntegerLiteral",
-      "offset": 5234,
+      "offset": 5394,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 10855,
+      "offset": 11015,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 11856,
+      "offset": 12016,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/DKPhotoGallery.swift",
       "kind": "BooleanLiteral",
-      "offset": 13274,
+      "offset": 13434,
       "length": 5,
       "value": "false"
     },
@@ -15268,42 +15366,42 @@
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 265,
+      "offset": 260,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 308,
+      "offset": 303,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 315,
+      "offset": 310,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 514,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 639,
+      "offset": 634,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/jorgecasanova\/repos\/laraigo_module_flutter\/.ios\/Pods\/DKPhotoGallery\/DKPhotoGallery\/Preview\/ImagePreview\/DKPhotoImageUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 891,
       "length": 1,
       "value": "2"
     },

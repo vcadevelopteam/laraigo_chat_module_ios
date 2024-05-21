@@ -157,6 +157,7 @@ public protocol DKPhotoBasePreviewDataSource : ObjectiveC.NSObjectProtocol {
   @objc @_Concurrency.MainActor(unsafe) open var finishedBlock: ((_ index: Swift.Int, _ item: DKPhotoGallery.DKPhotoGalleryItem) -> UIKit.UIImageView?)?
   @objc @_Concurrency.MainActor(unsafe) open var presentingFromImageView: UIKit.UIImageView?
   @objc @_Concurrency.MainActor(unsafe) open var presentationIndex: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) open var leftBarButtonItemColor: UIKit.UIColor
   @objc @_Concurrency.MainActor(unsafe) open var singleTapMode: DKPhotoGallery.DKPhotoGallerySingleTapMode
   @objc @_Concurrency.MainActor(unsafe) weak open var galleryDelegate: (any DKPhotoGallery.DKPhotoGalleryDelegate)?
   @objc @_Concurrency.MainActor(unsafe) open var customLongPressActions: [UIKit.UIAlertAction]?
