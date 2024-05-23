@@ -29,7 +29,7 @@ struct HomeView: View {
         
         flutterBasicChannel = FlutterBasicMessageChannel(name: "laraigo_chat_communication_channel", binaryMessenger: flutterDependencies.flutterEngine.binaryMessenger, codec: FlutterStandardMessageCodec.sharedInstance())
         
-        flutterBasicChannel?.sendMessage(["integrationId": "6567ade24933f425469910e1", "customMessage":""])
+        flutterBasicChannel?.sendMessage(["integrationId": "integrationId", "customMessage":"Hola"])
              
         // Create a FlutterViewController from pre-warm FlutterEngine
         let flutterViewController = FlutterViewController(
